@@ -1,0 +1,97 @@
+<template>
+    <div class="flex flex-col md:flex-row items-center justify-between p-10 bg-gradient-to-b from-[#FFC800] via-[#D6943D] to-black text-white">
+      <!-- Left Section -->
+      <div class="flex-1 flex items-center justify-center relative">
+        <!-- Background Arch -->
+        <div
+          class="absolute custom-arch"
+          style="
+            width: 380px;
+            height: 550px;
+            border-radius: 350px 350px 0px 0px;
+            background: linear-gradient(199.91deg, #1A90D7 0%, rgba(44, 202, 195, 0.28) 100%);
+            "
+        ></div>
+        <!-- Phone Mockup -->
+        <div class="relative w-[380px] z-10">
+          <img
+            src="https://s3-alpha-sig.figma.com/img/d4c1/525c/22c782d015e5ffd7b19d40bb0c922860?Expires=1737936000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=nSxzSkhagXszlDzijuKFWyKn6NAp18hfP9IHCy4iHVNbt~i0AEqKB5D7p03FNbXbBJrdbkMgO~b10joI84lAtjv6Q7JINkL-u-Yfqvu4RRDlmSmFWeOG4XvQA~FwlUVB3T8Xga92orbScdolfHoMtLX465XpxN2zDpY~kKN3lU~D7vpsBhDGqKnXP0Zf9RIN9PaiUffHZV3GJlRwJjcRqxuS2dix6XAv5H8s--8P11T2PR7ivb0oPDY9AqSnE~RaAFnW0y8c-FHPYH4hh0flY1dQiJ2yzQQWJAKuozF~BC~GJeAMG4mWe8IMKrdA4h~IsHW-RyGCx6b7rC~bNldWJg"
+            alt="Phone Mockup"
+            class="w-full h-auto rounded-xl shadow-lg"
+          />
+        </div>
+      </div>
+  
+      <!-- Right Section -->
+      <div class="flex-1 p-5">
+        <!-- Title Section -->
+        <h2 class="text-3xl font-bold mb-10">
+          TẠI SAO BẠN NÊN THIẾT KẾ WEBSITE TẠI GOLDEN BEE
+        </h2>
+  
+        <!-- Content Section -->
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-5">
+          <!-- Feature 01 -->
+          <div class="relative p-5">
+            <h1 class="absolute text-[80px] font-bold text-white/10 top-0 left-0">
+              01
+            </h1>
+            <h3 class="text-xl font-semibold mb-3">Giao diện website ấn tượng</h3>
+            <p class="text-base">
+              Giao diện đẹp và thân thiện, thiết kế tối ưu bố cục và màu sắc sẽ
+              giúp tăng trải nghiệm của khách hàng.
+            </p>
+          </div>
+  
+          <!-- Feature 02 -->
+          <div class="relative p-5">
+            <h1 class="absolute text-[80px] font-bold text-white/10 top-0 left-0">
+              02
+            </h1>
+            <h3 class="text-xl font-semibold mb-3">Tính năng đa dạng nổi bật</h3>
+            <p class="text-base">
+              Những tính năng tìm kiếm, giỏ hàng, đặt hàng, thanh toán... cần được
+              trang bị để đáp ứng tốt nhu cầu bán hàng online.
+            </p>
+          </div>
+  
+          <!-- Feature 03 -->
+          <div class="relative p-5">
+            <h1 class="absolute text-[80px] font-bold text-white/10 top-0 left-0">
+              03
+            </h1>
+            <h3 class="text-xl font-semibold mb-3">Thân thiện với người dùng</h3>
+            <p class="text-base">
+              Thiết kế thân thiện với người dùng, tương thích trên nhiều thiết bị
+              sẽ giúp doanh nghiệp tiếp cận đến người dùng dễ dàng.
+            </p>
+          </div>
+  
+          <!-- Feature 04 -->
+          <div class="relative p-5">
+            <h1 class="absolute text-[80px] font-bold text-white/10 top-0 left-0">
+              04
+            </h1>
+            <h3 class="text-xl font-semibold mb-3">Cam kết bảo hành trọn đời</h3>
+            <p class="text-base">
+              Cung cấp dịch vụ thiết kế trang web trọn gói với chi phí tiết kiệm
+              cùng với chất lượng sản phẩm tốt nhất.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </template>
+  
+  <script>
+  export default {
+    name: "GoldenBeeUI",
+  };
+  </script>
+  
+  <style scoped>
+  .custom-arch {
+    position: absolute;
+  }
+  </style>
+  
