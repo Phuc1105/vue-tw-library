@@ -58,7 +58,7 @@
       <!-- Logo section -->
       <div class="flex justify-center items-center">
         <img
-          src="https://s3-alpha-sig.figma.com/img/a008/619e/5b4ecc0fb285d6819eb204a9939eeafb?Expires=1738540800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=lFoM5y52PZzQvOK8ukLfESi8Z5qVx7ia7vWYdp29io9r5jJ44uyg7GrkXpmot4TQEZQV6kJCTyuNZL-ab9Y9fOM2Zmo8Yl~DnC6KOz0JPjcTofS1qFgPsIBrvnqrngbnPCLhoQZAzEgI~dI6aXh3PI064qgc7N1YqOBwSQMwFspf3GhAHSlIIsntgnrUAiY4Vz8bNEu7pqJlPGPVkvnBOZRXB5IX6eE9dbkxnXam3vMisj-Es5vpAwqExM~4H6KSZ4uzp4RO606sedO2GxJNWBdJ0zzTxJK28EllaXP2dyeVDt-ZVHzQyJvmxE2towkkJrkANXleWYib4Wh9x7q5mw__"
+          src="/src/assets/images/5b4ecc0fb285d6819eb204a9939eeafb.png"
           alt="Golden Bee IT Solutions Logo" class="w-30 h-30">
       </div>
     </div>
