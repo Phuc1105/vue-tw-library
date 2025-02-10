@@ -12,31 +12,34 @@
     <span>Tác giả Admin</span>
     <span>07/01/2025</span>
     
-    <!-- Icon Facebook -->
+    <div class="flex flex-wrap justify-center gap-4">
+    <!-- Facebook -->
     <a href="#" class="p-2 rounded bg-blue-600">
-        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-white" fill="currentColor" viewBox="0 0 24 24">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 sm:h-5 sm:w-5 md:h-6 md:w-6 text-white" fill="currentColor" viewBox="0 0 24 24">
             <path d="M24 12.073C24 5.404 18.627 0 12 0S0 5.404 0 12.073C0 18.106 4.388 23.12 10.125 24v-8.508h-3.047V12.07H10.13v-2.648c0-3.02 1.792-4.688 4.533-4.688 1.312 0 2.686.235 2.686.235v2.952h-1.512c-1.49 0-1.955.925-1.955 1.874v2.245h3.328l-.532 3.422h-2.796v8.507C19.612 23.12 24 18.106 24 12.073z"/>
         </svg>
     </a>
 
-    <!-- Icon X (Twitter) -->
+    <!-- X (Twitter) -->
     <a href="#" class="p-2 rounded bg-black">
-        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-white" fill="currentColor" viewBox="0 0 24 24">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 sm:h-5 sm:w-5 md:h-6 md:w-6 text-white" fill="currentColor" viewBox="0 0 24 24">
             <path d="M22.23 5.924c-.77.346-1.597.579-2.462.684a4.26 4.26 0 001.865-2.34 8.485 8.485 0 01-2.707 1.03A4.211 4.211 0 0016.616 4c-2.364 0-4.28 1.915-4.28 4.281 0 .336.04.663.11.974a12.066 12.066 0 01-8.755-4.437 4.277 4.277 0 00-.579 2.156 4.23 4.23 0 001.88 3.566 4.21 4.21 0 01-1.94-.535v.053c0 2.002 1.425 3.674 3.31 4.052a4.284 4.284 0 01-1.936.073c.547 1.706 2.134 2.948 4.015 2.983A8.455 8.455 0 012 19.104a11.94 11.94 0 006.515 1.91c7.81 0 12.08-6.472 12.08-12.083 0-.184-.004-.367-.012-.549a8.67 8.67 0 002.14-2.211z"/>
         </svg>
     </a>
 
-    <!-- Icon Gmail -->
+    <!-- Gmail -->
     <a href="#" class="p-2 rounded bg-white border">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/4/4e/Gmail_Icon.png" class="h-6 w-6" alt="Gmail">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/4/4e/Gmail_Icon.png" class="h-6 w-6 sm:h-5 sm:w-5 md:h-6 md:w-6" alt="Gmail">
     </a>
 
-    <!-- Icon Telegram -->
+    <!-- Telegram -->
     <a href="#" class="p-2 rounded bg-blue-400">
-        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-white" fill="currentColor" viewBox="0 0 24 24">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 sm:h-5 sm:w-5 md:h-6 md:w-6 text-white" fill="currentColor" viewBox="0 0 24 24">
             <path d="M21.508 2.577c-.716-.295-1.453-.434-2.199-.446h-.018c-.936.003-1.854.245-2.719.719L4.294 9.203c-.948.502-1.719 1.264-2.228 2.209a5.23 5.23 0 00-.418 3.873l.237 1.01c.208.896.787 1.642 1.595 2.07l.013.006 2.695 1.358c.686.343 1.417.514 2.154.514 1.612 0 3.132-.87 3.947-2.293.355-.613.893-1.56 1.567-2.583l5.166-6.642c.647-.833 1.11-1.825 1.316-2.887.269-1.386-.053-2.812-1.077-4.03-.81-1.022-1.972-1.705-3.292-1.905z"/>
-        </svg>
+        </svg>  
     </a>
+</div>
+
 </div>
 
         
@@ -98,31 +101,34 @@
         <span>Chia sẻ:</span>
     </span>
 
+    <div class="flex flex-wrap justify-center gap-4">
     <!-- Facebook -->
     <a href="#" class="p-2 rounded bg-blue-600">
-        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-white" fill="currentColor" viewBox="0 0 24 24">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 sm:h-5 sm:w-5 md:h-6 md:w-6 text-white" fill="currentColor" viewBox="0 0 24 24">
             <path d="M24 12.073C24 5.404 18.627 0 12 0S0 5.404 0 12.073C0 18.106 4.388 23.12 10.125 24v-8.508h-3.047V12.07H10.13v-2.648c0-3.02 1.792-4.688 4.533-4.688 1.312 0 2.686.235 2.686.235v2.952h-1.512c-1.49 0-1.955.925-1.955 1.874v2.245h3.328l-.532 3.422h-2.796v8.507C19.612 23.12 24 18.106 24 12.073z"/>
         </svg>
     </a>
 
     <!-- X (Twitter) -->
     <a href="#" class="p-2 rounded bg-black">
-        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-white" fill="currentColor" viewBox="0 0 24 24">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 sm:h-5 sm:w-5 md:h-6 md:w-6 text-white" fill="currentColor" viewBox="0 0 24 24">
             <path d="M22.23 5.924c-.77.346-1.597.579-2.462.684a4.26 4.26 0 001.865-2.34 8.485 8.485 0 01-2.707 1.03A4.211 4.211 0 0016.616 4c-2.364 0-4.28 1.915-4.28 4.281 0 .336.04.663.11.974a12.066 12.066 0 01-8.755-4.437 4.277 4.277 0 00-.579 2.156 4.23 4.23 0 001.88 3.566 4.21 4.21 0 01-1.94-.535v.053c0 2.002 1.425 3.674 3.31 4.052a4.284 4.284 0 01-1.936.073c.547 1.706 2.134 2.948 4.015 2.983A8.455 8.455 0 012 19.104a11.94 11.94 0 006.515 1.91c7.81 0 12.08-6.472 12.08-12.083 0-.184-.004-.367-.012-.549a8.67 8.67 0 002.14-2.211z"/>
         </svg>
     </a>
 
     <!-- Gmail -->
     <a href="#" class="p-2 rounded bg-white border">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/4/4e/Gmail_Icon.png" class="h-6 w-6" alt="Gmail">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/4/4e/Gmail_Icon.png" class="h-6 w-6 sm:h-5 sm:w-5 md:h-6 md:w-6" alt="Gmail">
     </a>
 
     <!-- Telegram -->
     <a href="#" class="p-2 rounded bg-blue-400">
-        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-white" fill="currentColor" viewBox="0 0 24 24">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 sm:h-5 sm:w-5 md:h-6 md:w-6 text-white" fill="currentColor" viewBox="0 0 24 24">
             <path d="M21.508 2.577c-.716-.295-1.453-.434-2.199-.446h-.018c-.936.003-1.854.245-2.719.719L4.294 9.203c-.948.502-1.719 1.264-2.228 2.209a5.23 5.23 0 00-.418 3.873l.237 1.01c.208.896.787 1.642 1.595 2.07l.013.006 2.695 1.358c.686.343 1.417.514 2.154.514 1.612 0 3.132-.87 3.947-2.293.355-.613.893-1.56 1.567-2.583l5.166-6.642c.647-.833 1.11-1.825 1.316-2.887.269-1.386-.053-2.812-1.077-4.03-.81-1.022-1.972-1.705-3.292-1.905z"/>
-        </svg>
+        </svg>  
     </a>
+</div>
+
 </div>
 
  
