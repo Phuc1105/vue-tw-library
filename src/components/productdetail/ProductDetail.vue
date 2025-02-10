@@ -8,13 +8,14 @@
         <img src="/src/assets/images/5d46b993ecded206c97a8df7fe5e1edc.png" alt="Xe đạp xaming mini XM24" class="w-3/4 mx-auto mb-4" /> <!-- Giảm kích thước hình chính -->
 
         <!-- Thumbnail Images -->
-        <div class="flex gap-2 justify-center">
-          <img src="/src/assets/images/0073ec357b2645bf7803cd12cbc162d2.png" alt="Thumbnail 1" class="w-16 h-16 border" /> <!-- Giảm kích thước thumbnail -->
-          <img src="/src/assets/images/59f01abd1250450d7fc9500f73132efb.png" alt="Thumbnail 2" class="w-16 h-16 border" />
-          <img src="/src/assets/images/7af96dab131203a49d4973130ecd2e44.png" alt="Thumbnail 3" class="w-16 h-16 border" />
-          <img src="/src/assets/images/c92617dc964e2d96ca7a0e7b896a2cbd.png" alt="Thumbnail 4" class="w-16 h-16 border" />
-          <img src="/src/assets/images/fb14940f86aea70aa1c74d6f1302270b.png" alt="Thumbnail 5" class="w-16 h-16 border" />
-        </div>
+<div class="flex flex-wrap gap-2 justify-center">
+  <img src="/src/assets/images/0073ec357b2645bf7803cd12cbc162d2.png" alt="Thumbnail 1" class="w-16 h-16 border" />
+  <img src="/src/assets/images/59f01abd1250450d7fc9500f73132efb.png" alt="Thumbnail 2" class="w-16 h-16 border" />
+  <img src="/src/assets/images/7af96dab131203a49d4973130ecd2e44.png" alt="Thumbnail 3" class="w-16 h-16 border" />
+  <img src="/src/assets/images/c92617dc964e2d96ca7a0e7b896a2cbd.png" alt="Thumbnail 4" class="w-16 h-16 border" />
+  <img src="/src/assets/images/fb14940f86aea70aa1c74d6f1302270b.png" alt="Thumbnail 5" class="w-16 h-16 border" />
+</div>
+
       </div>
 
       <!-- Right Side: Product Info -->
@@ -61,20 +62,21 @@
         </ul>
 
         <!-- Buttons -->
-        <div class="flex items-center gap-4">
-          <!-- Quantity Selector -->
-          <div class="flex items-center border rounded-lg overflow-hidden">
-            <button class="px-4 py-2 bg-gray-200 text-gray-700 hover:bg-gray-300 focus:outline-none">-</button>
-            <span class="w-16 text-center">1</span>
-            <button class="px-4 py-2 bg-gray-200 text-gray-700 hover:bg-gray-300 focus:outline-none">+</button>
-          </div>
+<div class="flex flex-col md:flex-row items-center gap-4">
+  <!-- Quantity Selector -->
+  <div class="flex items-center border rounded-lg overflow-hidden">
+    <button class="px-4 py-2 bg-gray-200 text-gray-700 hover:bg-gray-300 focus:outline-none">-</button>
+    <span class="w-16 text-center">1</span>
+    <button class="px-4 py-2 bg-gray-200 text-gray-700 hover:bg-gray-300 focus:outline-none">+</button>
+  </div>
 
-          <!-- Add to Cart Button -->
-          <button class="px-6 py-2 bg-yellow-500 text-white rounded-lg hover:bg-yellow-600 focus:outline-none">Thêm vào giỏ hàng</button>
+  <!-- Add to Cart Button -->
+  <button class="w-full md:w-auto px-6 py-2 bg-yellow-500 text-white rounded-lg hover:bg-yellow-600 focus:outline-none">Thêm vào giỏ hàng</button>
 
-          <!-- Buy Now Button -->
-          <button class="px-6 py-2 bg-red-500 text-white rounded-lg hover:bg-red-600 focus:outline-none">Mua ngay</button>
-        </div>
+  <!-- Buy Now Button -->
+  <button class="w-full md:w-auto px-6 py-2 bg-red-500 text-white rounded-lg hover:bg-red-600 focus:outline-none">Mua ngay</button>
+</div>
+
       </div>
     </div>
           <!-- Extra Options Section (Shipping Info, Guarantees, etc.) -->
