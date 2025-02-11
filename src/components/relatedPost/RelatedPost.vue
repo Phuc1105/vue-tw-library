@@ -1,33 +1,32 @@
 <template>
-    <div class="related-posts-container">
-      <h1 class=" mb-5 font-bold">BÀI VIẾT LIÊN QUAN</h1>
-      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-        <div
-          class="related-post bg-white rounded-lg overflow-hidden shadow hover:shadow-lg transition"
-          v-for="(post, index) in posts"
-          :key="index"
-        >
-          <div class="relative">
-            <img :src="post.image" alt="Post Thumbnail" class="w-full h-40 object-cover" />
-            <div class="absolute bottom-0 left-0 w-full bg-black bg-opacity-50 text-white p-2 text-sm flex items-center">
-              <span class="flex items-center gap-1">
-                <!-- Eye Icon for views -->
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="w-4 h-4">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4.5c3.74 0 7 3.25 7 7s-3.26 7-7 7-7-3.25-7-7 3.26-7 7-7zm0 2C9.79 6.5 8 8.29 8 10s1.79 3.5 4 3.5 4-1.79 4-3.5-1.79-3.5-4-3.5zm0 4a1.5 1.5 0 110-3 1.5 1.5 0 010 3z" />
-                </svg>
-                {{ post.views }} lượt xem
-              </span>
-            </div>
+  <div class="related-posts-container px-4">
+    <h1 class="mb-5 font-bold text-center">BÀI VIẾT LIÊN QUAN</h1>
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6">
+      <div
+        class="related-post bg-white rounded-lg overflow-hidden shadow hover:shadow-lg transition"
+        v-for="(post, index) in posts"
+        :key="index"
+      >
+        <div class="relative">
+          <img :src="post.image" alt="Post Thumbnail" class="w-full h-32 sm:h-40 object-cover" />
+          <div class="absolute bottom-0 left-0 w-full bg-black bg-opacity-50 text-white p-2 text-sm flex items-center">
+            <span class="flex items-center gap-1">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="w-4 h-4">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" 
+                      d="M12 4.5c3.74 0 7 3.25 7 7s-3.26 7-7 7-7-3.25-7-7 3.26-7 7-7zm0 2C9.79 6.5 8 8.29 8 10s1.79 3.5 4 3.5 4-1.79 4-3.5-1.79-3.5-4-3.5zm0 4a1.5 1.5 0 110-3 1.5 1.5 0 010 3z" />
+              </svg>
+              {{ post.views }} lượt xem
+            </span>
           </div>
-          <div class="p-4">
-            <h3 class="text-sm font-semibold">{{ post.title }}</h3>
-          </div>
+        </div>
+        <div class="p-4">
+          <h3 class="text-sm font-semibold">{{ post.title }}</h3>
         </div>
       </div>
     </div>
-  </template>
-  
-  <script>
+  </div>
+</template>
+<script>
   export default {
     data() {
       return {
@@ -58,34 +57,18 @@
   };
   </script>
   
-  <style scoped>
-  .related-posts-container {
-    max-width: 1200px;
-    margin: 0 auto;
-  }
-  .text-center {
-    text-align: center;
-  }
-  .mb-5 {
-    margin-bottom: 1.25rem;
-  }
-  .grid {
-    display: grid;
-  }
-  .grid-cols-1 {
-    grid-template-columns: 1fr;
-  }
-  .md\:grid-cols-2 {
-    grid-template-columns: repeat(2, 1fr);
-  }
-  .lg\:grid-cols-4 {
-    grid-template-columns: repeat(4, 1fr);
-  }
-  .gap-6 {
-    gap: 1.5rem;
-  }
-  .related-post img {
-    border-radius: 0.375rem 0.375rem 0 0;
-  }
-  </style>
-  
+
+<style scoped>
+.related-posts-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+</style>
+
+
+
+
+
+
+
+
