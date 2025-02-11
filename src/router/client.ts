@@ -1,6 +1,7 @@
 import Banner from '@/views/banner/Banner.vue';
 import LayoutClient from '@/layouts/client.vue';
 import Header from '@/components/header/Header.vue'
+import Content from '@/components/content/Content.vue';
 
 const client = [
     {
@@ -16,6 +17,11 @@ const client = [
                 path: '/Header',
                 name: 'component-header',
                 component: () => Header,
+            },
+            {
+                path: '/Content',
+                name: 'component-content',
+                component: () => Content,
             }
         ]
     }
